@@ -1,16 +1,29 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<header>
+		<div class="container">
+			<h1>Witaj w grze!</h1>
+			<h2>Kamień, Papier, Nożyce</h2>
+			<p class="luck">Niech <span>MOC</span> będzie z Tobą!</p>
+		</div>
+	</header>
 	<div class="container">
+		<p class="instruction">Zagraj z komputerem i wybierz: "Kamień", "Papier" albo "Nozyce"!</p>
 		<div id="buttons">
-			<button id="button-rock">Kamień</button>
-			<button id="button-paper">Papier</button>
-			<button id="button-scissors">Nożyce</button>
+			<button id="button-rock" type="button"><i class="fas fa-hand-rock">Kamień</i></button>
+			<button id="button-paper" type="button"><i class="fas fa-hand-paper">Papier</i></button>
+			<button id="button-scissors" type="button"><i class="fas fa-hand-scissors">Nożyce</i></button>
 		</div>
 		<div id="messages"></div>
 	</div>
